@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'poppins';
     box-sizing: border-box;
     line-height: 2.0;
 }
@@ -68,6 +68,13 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+.header-text.divide-left{
+    flex-basis:  35%;
+}
+.header-text.divide.right{
+    flex-basis:  60%;
+}
+
 .header-text {
     margin-top: 20%;
     font-size: 30px;
@@ -75,7 +82,7 @@ nav ul li a:hover::after{
 
 .header-text h1{
     font-size: 60px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .header-text h1 span{

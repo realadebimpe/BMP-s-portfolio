@@ -28,6 +28,10 @@ body {
     padding: 10px 10%;
 }
 
+.container .logo{
+    color: #f8dc0b;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -87,7 +91,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color:#8b7c07
+    color:#f8dc0b;
 }
 
 /* about */
